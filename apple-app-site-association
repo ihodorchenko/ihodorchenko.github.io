@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "details": [
+             {
+               "appIDs": [ "FC9Y234L7A.by.clevertec.alfabank.insyncx", "4YRD97LX2G.by.alfabank.insync" ],
+               "components": [ 
+                   { 
+                       "/": "/*",
+                       "comment": "All universal link"
+                    }
+                ]
+            }
+        ]
+    }
+}
