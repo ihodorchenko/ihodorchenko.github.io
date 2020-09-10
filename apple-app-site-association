@@ -9,9 +9,7 @@
                        "/": "*",
                        "comment": "All universal link"
                     }
-                ]
-            },
-            {
+                ],
                 "appID": "4YRD97LX2G.by.alfabank.insync",
                 "paths": [ "*" ]
             },
