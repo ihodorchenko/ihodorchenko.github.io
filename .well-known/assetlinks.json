@@ -34,5 +34,42 @@
     "sha256_cert_fingerprints":
     ["84:32:49:46:40:66:00:7D:8B:D2:12:9E:EE:78:6B:60:92:E5:00:89:95:9C:BB:00:A7:D8:77:42:42:DA:FA:7D"]
   }
+},
+
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.velcom.vbanking",
+    "sha256_cert_fingerprints":
+    ["82:75:70:6A:28:D5:4C:F4:4B:C3:DC:6C:34:E8:E7:C5:9E:F3:15:9B:02:AB:18:AC:D8:A5:40:EB:C9:6F:69:A5"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.velcom.vbanking.preprod",
+    "sha256_cert_fingerprints":
+    ["82:75:70:6A:28:D5:4C:F4:4B:C3:DC:6C:34:E8:E7:C5:9E:F3:15:9B:02:AB:18:AC:D8:A5:40:EB:C9:6F:69:A5"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.velcom.vbanking.betaprod",
+    "sha256_cert_fingerprints":
+    ["82:75:70:6A:28:D5:4C:F4:4B:C3:DC:6C:34:E8:E7:C5:9E:F3:15:9B:02:AB:18:AC:D8:A5:40:EB:C9:6F:69:A5"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.velcom.vbanking.dev",
+    "sha256_cert_fingerprints":
+    ["82:75:70:6A:28:D5:4C:F4:4B:C3:DC:6C:34:E8:E7:C5:9E:F3:15:9B:02:AB:18:AC:D8:A5:40:EB:C9:6F:69:A5"]
+  }
 }
 ]
