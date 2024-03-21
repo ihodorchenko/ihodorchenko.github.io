@@ -1,0 +1,28 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+             {
+               "appIDs": [ "5J27CZTK75.by.velcom.V-Banking", "5J27CZTK75.by.velcom.V-Banking.PreProd", "5J27CZTK75.by.velcom.V-Banking.BetaProd" ],
+               "components": [ 
+                   { 
+			"/": "/mobapp/*",
+                       "comment": "All universal link"
+                    }
+                ]
+            },
+            {
+                "appID": "5J27CZTK75.by.velcom.V-Banking",
+                "paths": [ "/mobapp/*" ]
+            },
+            {
+                "appID": "5J27CZTK75.by.velcom.V-Banking.PreProd",
+                "paths": [ "/mobapp/*" ]
+            },
+            {
+                "appID": "5J27CZTK75.by.velcom.V-Banking.BetaProd",
+                "paths": [ "/mobapp/*" ]
+            }
+        ]
+    }
+}
