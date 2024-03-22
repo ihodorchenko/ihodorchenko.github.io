@@ -2,27 +2,49 @@
     "applinks": {
         "apps": [],
         "details": [
-             {
-               "appIDs": [ "5J27CZTK75.by.velcom.V-Banking", "5J27CZTK75.by.velcom.V-Banking.PreProd", "5J27CZTK75.by.velcom.V-Banking.BetaProd" ],
-               "components": [ 
-                   { 
-			"/": "/mobapp/*",
-                       "comment": "All universal link"
-                    }
+            {
+                "appID": "6YRM723BCD.by.bsb.ios1", "paths": ["*"]
+            },
+            {
+                "appID": "AEN52N4HBU.by.lwo.BPay", "paths": ["*"]
+            },
+            {
+                "appID": "SC629R5592.by.belgazprombank.mobile", "paths": ["*"]
+            },
+            {
+                "appIDs": [ "KG4PD35W6V.com.alseda.BNB-Bank", "L4B3LH9V9B.com.alseda.BNB-Bank" ], 
+                "appID": "KG4PD35W6V.com.alseda.BNB-Bank", "paths": [ "*" ] 
+            },
+            {
+                "appID": "L4B3LH9V9B.com.alseda.BNB-Bank", "paths": [ "*" ] 
+            },
+            { 
+                "appID": "2W54795PPV.com.bv.hup", "paths": ["*"]
+            },
+            {    
+                "appID": "LAR27W855A.com.alseda.SolutionBank", "paths": ["*"]
+            },
+            { 
+                "appID": "7PN8QBGK9G.com.mobicon-media.M-Belarusbank", "paths": ["*"]
+            },
+            { 
+                "appIDs": [ "5J27CZTK75.by.velcom.V-Banking", "5J27CZTK75.by.velcom.V-Banking.PreProd" ],
+                "components": [     
+                    { "/": "*", "comment": "All universal link" }
                 ]
             },
             {
-                "appID": "5J27CZTK75.by.velcom.V-Banking",
-                "paths": [ "/mobapp/*" ]
+                "appID": "5J27CZTK75.by.velcom.V-Banking", "paths": [ "*" ]
             },
             {
-                "appID": "5J27CZTK75.by.velcom.V-Banking.PreProd",
-                "paths": [ "/mobapp/*" ]
-            },
-            {
-                "appID": "5J27CZTK75.by.velcom.V-Banking.BetaProd",
-                "paths": [ "/mobapp/*" ]
+                "appID": "5J27CZTK75.by.velcom.V-Banking.PreProd", "paths": [ "*" ]
             }
         ]
+    },
+    "activitycontinuation": {
+        "apps": [ "KG4PD35W6V.com.alseda.BNB-Bank", "L4B3LH9V9B.com.alseda.BNB-Bank" ] 
+    },
+    "webcredentials": {
+        "apps": [ "KG4PD35W6V.com.alseda.BNB-Bank", "L4B3LH9V9B.com.alseda.BNB-Bank" ] 
     }
 }
