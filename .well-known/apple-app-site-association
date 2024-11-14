@@ -38,7 +38,13 @@
             },
             {
                 "appID": "5J27CZTK75.by.velcom.V-Banking.PreProd", "paths": [ "*" ]
-            }
+            },
+	    {
+        	"appID": "SC629R5592.by.bgpb.mobilebank", "paths": [ "/qr*" ]
+      	    },
+	    {
+        	"appID": "SC629R5592.by.bgpb.mobilebank.qa", "paths": [ "/qr*" ]
+      	    },
         ]
     },
     "activitycontinuation": {
