@@ -39,12 +39,21 @@
             {
                 "appID": "5J27CZTK75.by.velcom.V-Banking.PreProd", "paths": [ "*" ]
             },
-	    {
-        	"appID": "SC629R5592.by.bgpb.mobilebank", "paths": [ "/qr*" ]
+	        {
+        	    "appID": "SC629R5592.by.bgpb.mobilebank", "paths": [ "/qr*" ]
       	    },
-	    {
-        	"appID": "SC629R5592.by.bgpb.mobilebank.qa", "paths": [ "/qr*" ]
+	        {
+        	    "appID": "SC629R5592.by.bgpb.mobilebank.qa", "paths": [ "/qr*" ]
       	    },
+
+            {
+                "appIDs": [
+                    "TWA7K5BKR5.by.fin.bbusiness",
+                    "TWA7K5BKR5.by.fin.bbusiness.qa",
+                    "TWA7K5BKR5.by.fin.bbusiness.preprod"
+                ],
+                "paths": [ "*" ]
+            }
         ]
     },
     "activitycontinuation": {
