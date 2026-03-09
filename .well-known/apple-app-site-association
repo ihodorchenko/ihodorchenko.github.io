@@ -53,6 +53,14 @@
                     "TWA7K5BKR5.by.fin.bbusiness.preprod"
                 ],
                 "paths": [ "*" ]
+            },
+            {
+                "appIDs": [
+                    "595K2PVBZW.by.fin.bb.bbusiness",
+                    "595K2PVBZW.by.fin.bb.qa",
+                    "595K2PVBZW.by.fin.bb.preprod"
+                ],
+                "paths": [ "*" ]
             }
         ]
     },
