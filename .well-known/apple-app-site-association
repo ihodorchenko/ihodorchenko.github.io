@@ -66,13 +66,13 @@
 				"appID": "595K2PVBZW.by.fin.bb",
 				"components": [
 					{
-						"/": "/atm_b"
+						"/": "/atm_b*"
 					},
 					{
-						"/": "/adm_b"
+						"/": "/adm_b*"
 					},
 					{
-						"/": "/bgpb_business_app"
+						"/": "/bgpb_business_app*"
 					}
 				]
 			}
