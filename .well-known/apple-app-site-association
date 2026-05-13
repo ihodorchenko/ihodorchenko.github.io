@@ -1,92 +1,108 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "6YRM723BCD.by.bsb.ios1",
-        "paths": ["*"]
-      },
-      {
-        "appID": "AEN52N4HBU.by.lwo.BPay",
-        "paths": ["*"]
-      },
-      {
-        "appID": "SC629R5592.by.belgazprombank.mobile",
-        "paths": ["*"]
-      },
-      {
-        "appIDs": [
-          "KG4PD35W6V.com.alseda.BNB-Bank",
-          "L4B3LH9V9B.com.alseda.BNB-Bank"
-        ],
-        "paths": ["*"]
-      },
-      {
-        "appID": "2W54795PPV.com.bv.hup",
-        "paths": ["*"]
-      },
-      {
-        "appID": "LAR27W855A.com.alseda.SolutionBank",
-        "paths": ["*"]
-      },
-      {
-        "appID": "7PN8QBGK9G.com.mobicon-media.M-Belarusbank",
-        "paths": ["*"]
-      },
-      {
-        "appIDs": [
-          "5J27CZTK75.by.velcom.V-Banking",
-          "5J27CZTK75.by.velcom.V-Banking.PreProd"
-        ],
-        "components": [
-          {
-            "/": "/*",
-            "comment": "All universal links"
-          }
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "6YRM723BCD.by.bsb.ios1",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appID": "AEN52N4HBU.by.lwo.BPay",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appID": "SC629R5592.by.belgazprombank.mobile",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appIDs": [
+                    "KG4PD35W6V.com.alseda.BNB-Bank",
+                    "L4B3LH9V9B.com.alseda.BNB-Bank"
+                ],
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appID": "2W54795PPV.com.bv.hup",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appID": "LAR27W855A.com.alseda.SolutionBank",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appID": "7PN8QBGK9G.com.mobicon-media.M-Belarusbank",
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appIDs": [
+                    "5J27CZTK75.by.velcom.V-Banking",
+                    "5J27CZTK75.by.velcom.V-Banking.PreProd"
+                ],
+                "components": [
+                    {
+                        "/": "/*",
+                        "comment": "All universal links"
+                    }
+                ]
+            },
+            {
+                "appID": "SC629R5592.by.bgpb.mobilebank",
+                "paths": [
+                    "/qr*"
+                ]
+            },
+            {
+                "appID": "SC629R5592.by.bgpb.mobilebank.qa",
+                "paths": [
+                    "/qr*"
+                ]
+            },
+            {
+                "appIDs": [
+                    "TWA7K5BKR5.by.fin.bbusiness",
+                    "TWA7K5BKR5.by.fin.bbusiness.qa",
+                    "TWA7K5BKR5.by.fin.bbusiness.preprod"
+                ],
+                "paths": [
+                    "*"
+                ]
+            },
+            {
+                "appIDs": [
+                    "595K2PVBZW.by.fin.bb",
+                    "595K2PVBZW.by.fin.bb.qa",
+                    "595K2PVBZW.by.fin.bb.preprod"
+                ],
+                "paths": [
+                    "*"
+                ]
+            }
         ]
-      },
-      {
-        "appID": "SC629R5592.by.bgpb.mobilebank",
-        "paths": ["/qr*"]
-      },
-      {
-        "appID": "SC629R5592.by.bgpb.mobilebank.qa",
-        "paths": ["/qr*"]
-      },
-      {
-        "appIDs": [
-          "TWA7K5BKR5.by.fin.bbusiness",
-          "TWA7K5BKR5.by.fin.bbusiness.qa",
-          "TWA7K5BKR5.by.fin.bbusiness.preprod"
-        ],
-        "paths": ["*"]
-      },
-      {
-        "appID": "595K2PVBZW.by.fin.bb",
-        "components": [
-          {
-            "/": "/atm_b*"
-          },
-          {
-            "/": "/adm_b*"
-          },
-          {
-            "/": "/bgpb_business_app*"
-          }
+    },
+    "activitycontinuation": {
+        "apps": [
+            "KG4PD35W6V.com.alseda.BNB-Bank",
+            "L4B3LH9V9B.com.alseda.BNB-Bank"
         ]
-      }
-    ]
-  },
-  "activitycontinuation": {
-    "apps": [
-      "KG4PD35W6V.com.alseda.BNB-Bank",
-      "L4B3LH9V9B.com.alseda.BNB-Bank"
-    ]
-  },
-  "webcredentials": {
-    "apps": [
-      "KG4PD35W6V.com.alseda.BNB-Bank",
-      "L4B3LH9V9B.com.alseda.BNB-Bank"
-    ]
-  }
+    },
+    "webcredentials": {
+        "apps": [
+            "KG4PD35W6V.com.alseda.BNB-Bank",
+            "L4B3LH9V9B.com.alseda.BNB-Bank"
+        ]
+    }
 }
