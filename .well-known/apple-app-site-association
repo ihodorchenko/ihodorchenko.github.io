@@ -94,9 +94,7 @@
             {
                 "appID": "8885WMRK5B.by.fin.bb.local",
                 "paths": [
-                    "/atm_b*",
-                    "/adm_b*",
-                    "/bgpb_business_app*"
+                     "*"
                 ]
             }
         ]
