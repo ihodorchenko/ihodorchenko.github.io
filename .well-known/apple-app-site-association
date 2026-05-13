@@ -54,14 +54,28 @@
                 ],
                 "paths": [ "*" ]
             },
+            // {
+            //     "appIDs": [
+            //         "595K2PVBZW.by.fin.bb",
+            //         "595K2PVBZW.by.fin.bb.qa",
+            //         "595K2PVBZW.by.fin.bb.preprod"
+            //     ],
+            //     "paths": [ "*" ]
+            // },
             {
-                "appIDs": [
-                    "595K2PVBZW.by.fin.bb",
-                    "595K2PVBZW.by.fin.bb.qa",
-                    "595K2PVBZW.by.fin.bb.preprod"
-                ],
-                "paths": [ "*" ]
-            }
+				"appID": "595K2PVBZW.by.fin.bb",
+				"components": [
+					{
+						"/": "/atm_b"
+					},
+					{
+						"/": "/adm_b"
+					},
+					{
+						"/": "/bgpb_business_app"
+					}
+				]
+			}
         ]
     },
     "activitycontinuation": {
