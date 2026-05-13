@@ -54,14 +54,6 @@
                 ],
                 "paths": [ "*" ]
             },
-            // {
-            //     "appIDs": [
-            //         "595K2PVBZW.by.fin.bb",
-            //         "595K2PVBZW.by.fin.bb.qa",
-            //         "595K2PVBZW.by.fin.bb.preprod"
-            //     ],
-            //     "paths": [ "*" ]
-            // },
             {
 				"appID": "595K2PVBZW.by.fin.bb",
 				"components": [
