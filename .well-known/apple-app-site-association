@@ -93,20 +93,11 @@
             },
             {
                 "appID": "8885WMRK5B.by.fin.bb.local",
-                "components": [
-					{
-						"/": "/atm_b",
-						"comment": "QR"
-					},
-					{
-						"/": "/adm_b",
-						"comment": "QR"
-					},
-					{
-						"/": "/bgpb_business_app",
-						"comment": "app"
-					}
-				]
+                "paths": [
+                    "/atm_b",
+                    "/adm_b",
+                    "/bgpb_business_app"
+                ]
             }
         ]
     },
