@@ -27,7 +27,7 @@
     "hero.kicker": "10 years in iOS",
     "hero.name.first": "Senior iOS",
     "hero.name.last": "Developer",
-    "hero.lead": "I design and grow mobile banking apps — from architecture and the first screen to App Store release. 13 years in software, 10 of them in iOS. I step into legacy code and leave it clearer, faster and safer.",
+    "hero.lead": "I design and grow mobile banking apps — from architecture and the first screen to App Store release. 13 years in software, 10 of them in iOS. I step into legacy code and make it clearer, faster and safer.",
     "hero.ctaPrimary": "Get in touch",
     "hero.ctaLinkedin": "LinkedIn",
     "hero.ctaTertiary": "See projects",
