@@ -12,6 +12,8 @@
     "lang.aria": "Language",
     "about.factsAria": "Key facts",
     "brand.name": "Senior iOS Developer",
+    "brand.mark": "IK",
+    "brand.aria": "Senior iOS Developer — home",
     "brand.role": "Senior iOS Developer",
     "nav.about": "About",
     "nav.experience": "Experience",
@@ -249,6 +251,11 @@
     root.setAttribute("lang", lang);
     document.title = META[lang].title;
     if (metaDesc) metaDesc.setAttribute("content", META[lang].desc);
+
+    document.querySelectorAll('meta[property="og:title"], meta[name="twitter:title"]')
+      .forEach((el) => el.setAttribute("content", META[lang].title));
+    document.querySelectorAll('meta[property="og:description"], meta[name="twitter:description"]')
+      .forEach((el) => el.setAttribute("content", META[lang].desc));
 
     langButtons.forEach((btn) => {
       const active = btn.dataset.lang === lang;
