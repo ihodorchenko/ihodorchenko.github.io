@@ -30,7 +30,7 @@
     "hero.ctaPrimary": "Get in touch",
     "hero.ctaLinkedin": "LinkedIn",
     "hero.ctaTertiary": "See projects",
-    "hero.location": "Gomel, Belarus · GMT+3",
+    "hero.fun": "I write Swift, think in commits",
     "hero.english": "English Upper-Intermediate",
     "hero.photoCaption": "13 years building software",
     "hero.appsUnit": "apps",
@@ -89,7 +89,7 @@
     "exp.job2.duration": "5 yrs 9 mos",
     "exp.job2.company": "CleverTech (LLC)",
     "exp.job2.role": "iOS Developer",
-    "exp.job2.mode": "Gomel, custom development",
+    "exp.job2.mode": "Custom development",
     "exp.job2.p1.period": "2016 — 2022",
     "exp.job2.p1.desc": "Alfa-Bank Belarus mobile bank: passport-scan onboarding, payments, SWIFT transfers, deposits, cards, support chat.",
     "exp.job2.p1.did": "built the app from scratch in Swift, designed the architecture, several graphic themes, localisation, Vision-based scanning, Apple Wallet, chat and news UI, App Store releases, mentored juniors.",
@@ -185,9 +185,9 @@
     "contact.kicker": "Contact",
     "contact.title": "Looking for an iOS developer<br><em>who ships?</em>",
     "contact.lead": "An idea, a product or tricky legacy code — I'll reply and suggest how to approach it.",
+    "contact.fun": "I reply before Xcode finishes indexing",
     "contact.copy": "Copy",
     "contact.copyEmail": "Copy email address",
-    "contact.location": "Gomel, Belarus · GMT+3",
 
     "footer.name": "Senior iOS Developer",
     "footer.made": "Senior iOS Developer",
@@ -199,11 +199,11 @@
   const META = {
     ru: {
       title: "Senior iOS Developer — Senior iOS Developer",
-      desc: "Senior iOS Developer с 13-летним опытом. Мобильный банкинг: 9 приложений в App Store, Swift, UIKit, SwiftUI, Combine. Гомель, Беларусь."
+      desc: "Senior iOS Developer с 13-летним опытом. Мобильный банкинг: 9 приложений в App Store, Swift, UIKit, SwiftUI, Combine."
     },
     en: {
       title: "Senior iOS Developer — Senior iOS Developer",
-      desc: "Senior iOS Developer with 13 years in software and 10 in iOS. Mobile banking: 9 apps on the App Store. Swift, UIKit, SwiftUI, Combine. Based in Gomel, Belarus."
+      desc: "Senior iOS Developer with 13 years in software and 10 in iOS. Mobile banking: 9 apps on the App Store. Swift, UIKit, SwiftUI, Combine."
     }
   };
 
