@@ -193,6 +193,8 @@
     "footer.made": "Senior iOS Developer",
     "footer.linkedin": "LinkedIn",
     "footer.top": "Back to top ↑",
+    "theme.label": "Theme",
+
     "toast.copied": "Copied"
   };
 
@@ -276,7 +278,10 @@
 
   langButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
-      if (btn.dataset.lang !== currentLang) applyLanguage(btn.dataset.lang);
+      if (btn.dataset.lang !== currentLang) {
+        applyLanguage(btn.dataset.lang);
+        renderTheme();
+      }
     });
   });
 
@@ -288,6 +293,66 @@
     if (param === "en" || param === "ru") savedLang = param;
   } catch (e) { /* noop */ }
   applyLanguage(savedLang === "en" ? "en" : "ru");
+
+  /* ---------- theme ---------- */
+  const THEME_KEY = "ih-theme";
+  const THEME_NAMES = {
+    ru: { auto: "Авто", light: "Светлая", dark: "Тёмная" },
+    en: { auto: "Auto", light: "Light", dark: "Dark" }
+  };
+  const THEME_PREFIX = { ru: "Тема", en: "Theme" };
+  const themeButtons = [
+    document.getElementById("theme-toggle"),
+    document.getElementById("theme-toggle-mobile")
+  ].filter(Boolean);
+  const themeIcons = Array.from(document.querySelectorAll(".theme-icon-use"));
+  const themeValue = document.getElementById("theme-value");
+  const systemLight = window.matchMedia("(prefers-color-scheme: light)");
+  const themeMeta = document.querySelector('meta[name="theme-color"]');
+  let themeMode = document.documentElement.getAttribute("data-theme-mode") || "auto";
+
+  function resolveTheme(mode) {
+    if (mode === "light" || mode === "dark") return mode;
+    return systemLight.matches ? "light" : "dark";
+  }
+
+  function renderTheme() {
+    const resolved = resolveTheme(themeMode);
+    const rootEl = document.documentElement;
+    rootEl.setAttribute("data-theme", resolved);
+    rootEl.setAttribute("data-theme-mode", themeMode);
+
+    const icon = themeMode === "auto" ? "#i-theme-auto" : themeMode === "light" ? "#i-sun" : "#i-moon";
+    themeIcons.forEach((use) => use.setAttribute("href", icon));
+
+    const lang = THEME_NAMES[currentLang] ? currentLang : "ru";
+    const name = THEME_NAMES[lang][themeMode];
+    themeButtons.forEach((btn) => {
+      btn.setAttribute("aria-label", `${THEME_PREFIX[lang]}: ${name}`);
+      btn.setAttribute("title", THEME_PREFIX[lang]);
+    });
+    if (themeValue) themeValue.textContent = name;
+
+    if (themeMeta) themeMeta.setAttribute("content", resolved === "light" ? "#f5f7f6" : "#07090a");
+  }
+
+  function cycleTheme() {
+    const order = ["auto", "light", "dark"];
+    themeMode = order[(order.indexOf(themeMode) + 1) % order.length];
+    try { localStorage.setItem(THEME_KEY, themeMode); } catch (e) { /* private mode */ }
+    renderTheme();
+  }
+
+  themeButtons.forEach((btn) => btn.addEventListener("click", cycleTheme));
+
+  // When following the system, react to OS appearance changes.
+  if (systemLight.addEventListener) {
+    systemLight.addEventListener("change", () => {
+      if (themeMode === "auto") renderTheme();
+    });
+  }
+
+  renderTheme();
 
   /* ---------- header + scroll progress ---------- */
   const header = document.getElementById("site-header");
