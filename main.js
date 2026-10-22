@@ -183,7 +183,7 @@
     "edu.by.level": "Native",
 
     "contact.kicker": "Contact",
-    "contact.title": "Tell me<br><em>about your project</em>",
+    "contact.title": "Looking for an iOS developer<br><em>who ships?</em>",
     "contact.lead": "An idea, a product or tricky legacy code — I'll reply and suggest how to approach it.",
     "contact.copy": "Copy",
     "contact.copyEmail": "Copy email address",
