@@ -23,7 +23,6 @@
     "nav.contact": "Contact",
     "nav.linkedin": "LinkedIn",
 
-    "hero.status": "Open to opportunities",
     "hero.kicker": "10 years in iOS",
     "hero.name.first": "Senior iOS",
     "hero.name.last": "Developer",
@@ -32,7 +31,6 @@
     "hero.ctaLinkedin": "LinkedIn",
     "hero.ctaTertiary": "See projects",
     "hero.location": "Gomel, Belarus · GMT+3",
-    "hero.format": "Remote · relocation",
     "hero.english": "English Upper-Intermediate",
     "hero.photoCaption": "13 years building software",
     "hero.appsUnit": "apps",
@@ -185,12 +183,11 @@
     "edu.by.level": "Native",
 
     "contact.kicker": "Contact",
-    "contact.title": "Looking for an iOS developer<br><em>who ships?</em>",
-    "contact.lead": "Open to full-time roles, remote or relocation. Tell me about your project — I'll reply and suggest how to approach it.",
+    "contact.title": "Tell me<br><em>about your project</em>",
+    "contact.lead": "An idea, a product or tricky legacy code — I'll reply and suggest how to approach it.",
     "contact.copy": "Copy",
     "contact.copyEmail": "Copy email address",
     "contact.location": "Gomel, Belarus · GMT+3",
-    "contact.status": "Open to opportunities",
 
     "footer.name": "Senior iOS Developer",
     "footer.made": "Senior iOS Developer",
@@ -202,11 +199,11 @@
   const META = {
     ru: {
       title: "Senior iOS Developer — Senior iOS Developer",
-      desc: "Senior iOS Developer с 13-летним опытом. Мобильный банкинг: 9 приложений в App Store, Swift, UIKit, SwiftUI, Combine. Гомель, Беларусь. Открыт к предложениям."
+      desc: "Senior iOS Developer с 13-летним опытом. Мобильный банкинг: 9 приложений в App Store, Swift, UIKit, SwiftUI, Combine. Гомель, Беларусь."
     },
     en: {
       title: "Senior iOS Developer — Senior iOS Developer",
-      desc: "Senior iOS Developer with 13 years in software and 10 in iOS. Mobile banking: 9 apps on the App Store. Swift, UIKit, SwiftUI, Combine. Open to remote and relocation."
+      desc: "Senior iOS Developer with 13 years in software and 10 in iOS. Mobile banking: 9 apps on the App Store. Swift, UIKit, SwiftUI, Combine. Based in Gomel, Belarus."
     }
   };
 
