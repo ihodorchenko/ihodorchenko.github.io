@@ -1,0 +1,10 @@
+# local tooling / QA artifacts
+qa/
+node_modules/
+.pw-browsers/
+.npmcache/
+.ffprofile/
+ffprof/
+
+# macOS
+.DS_Store
