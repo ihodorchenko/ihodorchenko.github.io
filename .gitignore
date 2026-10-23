@@ -8,3 +8,4 @@ ffprof/
 
 # macOS
 .DS_Store
+.edgeprof*/

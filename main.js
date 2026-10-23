@@ -1,5 +1,5 @@
 /* =========================================================
-   Senior iOS Developer — landing page
+   Senior iOS Developer — personal landing page
    Language switch (RU base / EN override) + interactions
    ========================================================= */
 (() => {
@@ -11,10 +11,8 @@
     "nav.aria": "Main navigation",
     "lang.aria": "Language",
     "about.factsAria": "Key facts",
-    "brand.name": "Senior iOS Developer",
-    "brand.mark": "IK",
     "brand.aria": "Senior iOS Developer — home",
-    "brand.role": "Senior iOS Developer",
+    "brand.tagline": "Mobile banking",
     "nav.about": "About",
     "nav.experience": "Experience",
     "nav.work": "Projects",
@@ -23,18 +21,15 @@
     "nav.contact": "Contact",
     "nav.linkedin": "LinkedIn",
 
-    "hero.kicker": "10 years in iOS",
-    "hero.name.first": "Senior iOS",
-    "hero.name.last": "Developer",
+    "hero.kicker": "Mobile banking",
+    "hero.since": "since 2013",
     "hero.lead": "I design and grow mobile banking apps — from architecture and the first screen to App Store release. 13 years in software, 10 of them in iOS. I step into legacy code and make it clearer, faster and safer.",
     "hero.ctaPrimary": "Get in touch",
     "hero.ctaLinkedin": "LinkedIn",
     "hero.ctaTertiary": "See projects",
     "hero.fun": "I write Swift, think in commits",
     "hero.english": "English Upper-Intermediate",
-    "hero.photoCaption": "13 years building software",
     "hero.appsUnit": "apps",
-    "hero.photoAlt": "Senior iOS Developer, Senior iOS Developer",
 
     "stats.years": "Years in software",
     "stats.ios": "Years in iOS",
@@ -189,8 +184,7 @@
     "contact.copy": "Copy",
     "contact.copyEmail": "Copy email address",
 
-    "footer.name": "Senior iOS Developer",
-    "footer.made": "Senior iOS Developer",
+    "footer.tagline": "Mobile banking",
     "footer.linkedin": "LinkedIn",
     "footer.top": "Back to top ↑",
     "theme.label": "Theme",
@@ -200,11 +194,11 @@
 
   const META = {
     ru: {
-      title: "Senior iOS Developer — Senior iOS Developer",
+      title: "Senior iOS Developer — мобильный банкинг",
       desc: "Senior iOS Developer с 13-летним опытом. Мобильный банкинг: 9 приложений в App Store, Swift, UIKit, SwiftUI, Combine."
     },
     en: {
-      title: "Senior iOS Developer — Senior iOS Developer",
+      title: "Senior iOS Developer — Mobile banking",
       desc: "Senior iOS Developer with 13 years in software and 10 in iOS. Mobile banking: 9 apps on the App Store. Swift, UIKit, SwiftUI, Combine."
     }
   };
