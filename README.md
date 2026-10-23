@@ -11,7 +11,7 @@
 ├── styles.css                  # оформление, адаптив, print-стили
 ├── main.js                     # английские переводы, переключатель языка, анимации
 ├── assets/
-│   └── og.jpg                  # превью для соцсетей (1200×630)
+│   └── og-2026.jpg                  # превью для соцсетей (1200×630)
 ├── .well-known/                # Universal Links / App Links (не трогать)
 └── .nojekyll                   # GitHub Pages: отключить Jekyll, чтобы отдавать .well-known как есть
 ```
@@ -104,6 +104,6 @@ Jekyll по умолчанию пропускает папки, начинающ
 - Адаптив: 1440 / 1024 / 820 / 390 px, проверено в headless Chromium.
 - Доступность: семантические секции, `aria-*`, skip-link, видимый фокус,
   поддержка `prefers-reduced-motion`, версия без JS (через `<noscript>`).
-- SEO: title, description, Open Graph и Twitter Card (`assets/og.jpg`).
+- SEO: title, description, Open Graph и Twitter Card (`assets/og-2026.jpg`).
 - Темы: авто/светлая/тёмная, `color-scheme`, `<meta name="theme-color">` обновляется при переключении.
 - Печать в PDF: отдельные print-стили, тёмная тема заменяется на светлую.
