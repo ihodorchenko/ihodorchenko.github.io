@@ -31,10 +31,19 @@ python3 -m http.server 8000
 - **Обо мне** — краткое позиционирование и список фактов.
 - **Опыт** — ScienceSoft, CleverTech, Intervale-Gomel с проектами, задачами и стеком.
 - **Проекты** — 9 приложений со ссылками на App Store.
+- **Open Source** — 8 публичных репозиториев: SVGRenderKit, MaskTextField, VPNGuard и пять плагинов для DeepSeek Harness.
 - **Стек** — языки, UI, архитектура, платежи и безопасность, инструменты, фреймворки.
 - **AI в работе** — Claude, ChatGPT и Cursor: рутина в коммерческих проектах, личные эксперименты и правила безопасной работы.
 - **Образование и языки** — магистратура, бакалавриат, уровни языков.
-- **Контакты** — e-mail (mailto + копирование в буфер) и LinkedIn.
+- **Контакты** — e-mail (mailto + копирование в буфер), LinkedIn и GitHub.
+
+## Open Source
+
+Секция `#opensource` собирает публичные репозитории GitHub: три проекта для Apple-платформ
+(SVGRenderKit, MaskTextField, VPNGuard) и пять плагинов для DeepSeek Harness.
+Карточки статические: при добавлении проекта правьте разметку в `index.html`, ключи `os.*`
+в объекте `EN` (`main.js`) и вручную обновляйте счётчики в заголовках групп и число
+в лиде секции («Восемь публичных проектов»).
 
 ## Темы
 
@@ -64,6 +73,7 @@ python3 -m http.server 8000
 | Что | Где |
 | --- | --- |
 | Опыт, проекты, текст | `index.html` |
+| Секция Open Source | блок `#opensource` в `index.html` + ключи `os.*` в `main.js` |
 | Блок про AI | секция `#ai` в `index.html` |
 | Ссылка на LinkedIn | в `index.html`, встречается 5 раз: шапка, мобильное меню, hero, контакты, футер |
 | Английская версия | объект `EN` в `main.js` |
@@ -71,8 +81,8 @@ python3 -m http.server 8000
 
 ## Контакты на странице
 
-Телефон и скачивание CV сознательно убраны: единственные каналы связи — e-mail
-(`the.guard.of.night@gmail.com`, кнопка копирования в блоке контактов) и профиль LinkedIn.
+Телефон и скачивание CV сознательно убраны: каналы связи — e-mail
+(`the.guard.of.night@gmail.com`, кнопка копирования в блоке контактов), профиль LinkedIn и GitHub.
 Чтобы вернуть резюме, положите PDF в `assets/` и добавьте ссылку в шапку/hero.
 
 ## Кэш и версии ассетов
@@ -81,8 +91,8 @@ GitHub Pages отдаёт файлы с `cache-control: max-age=600`, а Firefox
 Поэтому в `index.html` к `styles.css` и `main.js` добавлен параметр версии:
 
 ```html
-<link rel="stylesheet" href="styles.css?v=20261022b">
-<script src="main.js?v=20261022b" defer></script>
+<link rel="stylesheet" href="styles.css?v=20261102a">
+<script src="main.js?v=20261102a" defer></script>
 ```
 
 **При каждом деплое меняйте `v=`** (достаточно `?v=дата`), иначе браузеры могут показать старую

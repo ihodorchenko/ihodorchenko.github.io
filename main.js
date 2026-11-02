@@ -16,6 +16,7 @@
     "nav.about": "About",
     "nav.experience": "Experience",
     "nav.work": "Projects",
+    "nav.opensource": "Open Source",
     "nav.skills": "Stack",
     "nav.ai": "AI",
     "nav.contact": "Contact",
@@ -50,6 +51,7 @@
     "about.fact5": "Code review and mentoring juniors",
     "about.fact6": "Releases, TestFlight and App Store Connect",
     "about.fact7": "Estimates and feature planning",
+    "about.fact8": "8 open-source projects on GitHub",
     "about.badge1": "Banking",
     "about.badge2": "Fintech",
     "about.badge3": "Telecom",
@@ -127,6 +129,22 @@
     "work.dns.category": "Security · Uzbekistan",
     "work.dns.desc": "New features and code review in a NetworkExtension-powered app.",
 
+    "os.kicker": "Open Source",
+    "os.title": "Code you can<br><em>actually read</em>",
+    "os.lead": "Eight public projects: iOS libraries, macOS utilities and DeepSeek Harness plugins. All MIT-licensed — read, fork, send a pull request.",
+    "os.group.apple": "iOS & macOS · Swift",
+    "os.group.dsh": "DeepSeek Harness · plugins",
+    "os.docs": "Docs",
+    "os.all": "All repositories on GitHub",
+    "os.svg.desc": "A lightweight SVG renderer for iOS: parses SVG into CALayer hierarchies, recolors at runtime and exports PNG, JPEG or PDF. SwiftUI wrapper and DocC docs included.",
+    "os.mask.desc": "A UITextField with input masks: phone, card, date, OTP. Dynamic masks, VoiceOver, RTL and a SwiftUI wrapper. Ships through Swift Package Manager.",
+    "os.vpn.desc": "A macOS menu bar kill switch: when the VPN drops, access to protected hosts is blocked at the PF level. Native Swift, XPC helper, no sudo.",
+    "os.themes.desc": "Three cinematic sci-fi themes for DeepSeek Harness Desktop: Nostromo Amber, Omni-tool and Renaissance Steel. Full token palettes plus CRT/HUD effects.",
+    "os.next.desc": "A suggestion plugin: after each answer it shows the next prompt as ghost text in the input. Tab to accept. Generation happens host-side.",
+    "os.nightowl.desc": "Keeps the Mac awake while a session runs: caffeinate -i, a switch in the session header and a master toggle in Settings.",
+    "os.dock.desc": "Bounces the Dock icon when DeepSeek Harness needs you and the window is in the background. A native macOS beacon.",
+    "os.notif.desc": "Native macOS notifications: turn finished, failed, token limit, approval request or a question. Language and sound are configurable.",
+
     "skills.kicker": "Stack",
     "skills.title": "What I use<br><em>every day</em>",
     "skills.lead": "I don't chase every new library — I pick the tool that fits the task and the project. But I know the modern iOS stack well.",
@@ -195,11 +213,11 @@
   const META = {
     ru: {
       title: "Senior iOS Developer — мобильный банкинг",
-      desc: "Senior iOS Developer с 13-летним опытом. Мобильный банкинг: 9 приложений в App Store, Swift, UIKit, SwiftUI, Combine."
+      desc: "Senior iOS Developer с 13-летним опытом. Мобильный банкинг: 9 приложений в App Store, open-source библиотеки на Swift."
     },
     en: {
       title: "Senior iOS Developer — Mobile banking",
-      desc: "Senior iOS Developer with 13 years in software and 10 in iOS. Mobile banking: 9 apps on the App Store. Swift, UIKit, SwiftUI, Combine."
+      desc: "Senior iOS Developer with 13 years in software and 10 in iOS. Mobile banking: 9 apps on the App Store, open-source Swift libraries."
     }
   };
 

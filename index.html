@@ -20,7 +20,7 @@
   })();
 </script>
 <title>Senior iOS Developer — мобильный банкинг</title>
-<meta name="description" content="Senior iOS Developer с 13-летним опытом. Мобильный банкинг: 9 приложений в App Store, Swift, UIKit, SwiftUI, Combine.">
+<meta name="description" content="Senior iOS Developer с 13-летним опытом. Мобильный банкинг: 9 приложений в App Store, open-source библиотеки на Swift.">
 <meta name="theme-color" content="#07090a">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Senior iOS Developer — мобильный банкинг">
@@ -38,7 +38,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=20261025">
+<link rel="stylesheet" href="styles.css?v=20261102a">
 </head>
 <body>
 
@@ -61,6 +61,7 @@
   <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.2v2.2M12 19.6v2.2M2.2 12h2.2M19.6 12h2.2M5.1 5.1l1.6 1.6M17.3 17.3l1.6 1.6M18.9 5.1l-1.6 1.6M6.7 17.3l-1.6 1.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
   <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.5 14.6A8.6 8.6 0 0 1 9.4 3.5a8.6 8.6 0 1 0 11.1 11.1Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
   <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452z"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
   <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
   <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
 </svg>
@@ -79,6 +80,7 @@
       <a href="#about" data-i18n="nav.about">Обо мне</a>
       <a href="#experience" data-i18n="nav.experience">Опыт</a>
       <a href="#work" data-i18n="nav.work">Проекты</a>
+      <a href="#opensource" data-i18n="nav.opensource">Open Source</a>
       <a href="#skills" data-i18n="nav.skills">Стек</a>
       <a href="#ai" data-i18n="nav.ai">AI</a>
       <a href="#contact" data-i18n="nav.contact">Контакты</a>
@@ -107,6 +109,7 @@
     <a href="#about" data-i18n="nav.about">Обо мне</a>
     <a href="#experience" data-i18n="nav.experience">Опыт</a>
     <a href="#work" data-i18n="nav.work">Проекты</a>
+    <a href="#opensource" data-i18n="nav.opensource">Open Source</a>
     <a href="#skills" data-i18n="nav.skills">Стек</a>
     <a href="#ai" data-i18n="nav.ai">AI</a>
     <a href="#contact" data-i18n="nav.contact">Контакты</a>
@@ -253,6 +256,7 @@
             <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="about.fact5">Code review и менторство джунов</span></li>
             <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="about.fact6">Релизы, TestFlight и App Store Connect</span></li>
             <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="about.fact7">Оценка сроков и планирование фичей</span></li>
+            <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><span data-i18n="about.fact8">8 проектов с открытым кодом на GitHub</span></li>
           </ul>
           <div class="facts-footer">
             <span class="pill" data-i18n="about.badge1">Banking</span>
@@ -510,11 +514,178 @@
     </div>
   </section>
 
-  <!-- ————————————— SKILLS ————————————— -->
-  <section class="section section-alt" id="skills">
+  <!-- ————————————— OPEN SOURCE ————————————— -->
+  <section class="section section-alt" id="opensource">
     <div class="wrap">
       <header class="section-head reveal">
-        <p class="kicker"><span aria-hidden="true">04</span><span data-i18n="skills.kicker">Стек</span></p>
+        <p class="kicker"><span aria-hidden="true">04</span><span data-i18n="os.kicker">Open Source</span></p>
+        <h2 data-i18n="os.title">Код, который<br><em>можно почитать</em></h2>
+        <p class="section-lead" data-i18n="os.lead">Восемь публичных проектов с открытым кодом: библиотеки для iOS, утилиты для macOS и плагины для DeepSeek Harness. Всё под лицензией MIT — открывайте, форкайте, присылайте pull request.</p>
+      </header>
+
+      <div class="os-group">
+        <div class="os-group-head reveal">
+          <h3 class="os-group-title" data-i18n="os.group.apple">iOS и macOS · Swift</h3>
+          <span class="os-group-count" aria-hidden="true">3</span>
+          <span class="os-group-line" aria-hidden="true"></span>
+        </div>
+
+        <div class="os-grid">
+          <article class="os-card reveal" style="--d:.02s">
+            <div class="os-top">
+              <span class="os-lang"><span class="os-dot" style="--dot:#f05138"></span>Swift</span>
+              <span class="os-license">MIT</span>
+            </div>
+            <h4 class="os-title"><a href="https://github.com/ihodorchenko/SVGRenderKit" target="_blank" rel="noopener noreferrer">SVGRenderKit</a></h4>
+            <p class="os-desc" data-i18n="os.svg.desc">Лёгкий SVG-рендерер для iOS: разбирает SVG в иерархию CALayer, перекрашивает в рантайме, экспортирует в PNG, JPEG и PDF. Есть SwiftUI-обёртка и документация на DocC.</p>
+            <ul class="tech"><li>CALayer</li><li>SwiftUI</li><li>SPM</li></ul>
+            <div class="os-links">
+              <a class="os-link" href="https://github.com/ihodorchenko/SVGRenderKit" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span>
+              </a>
+              <a class="os-link" href="https://ihodorchenko.github.io/SVGRenderKit/" target="_blank" rel="noopener noreferrer">
+                <span data-i18n="os.docs">Документация</span>
+                <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="os-card reveal" style="--d:.05s">
+            <div class="os-top">
+              <span class="os-lang"><span class="os-dot" style="--dot:#f05138"></span>Swift</span>
+              <span class="os-license">MIT</span>
+            </div>
+            <h4 class="os-title"><a href="https://github.com/ihodorchenko/MaskTextField" target="_blank" rel="noopener noreferrer">MaskTextField</a></h4>
+            <p class="os-desc" data-i18n="os.mask.desc">UITextField с масками ввода: телефон, карта, дата, OTP. Динамические маски, VoiceOver, RTL и SwiftUI-обёртка. Ставится через Swift Package Manager.</p>
+            <ul class="tech"><li>UIKit</li><li>SwiftUI</li><li>SPM</li></ul>
+            <div class="os-links">
+              <a class="os-link" href="https://github.com/ihodorchenko/MaskTextField" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span>
+              </a>
+              <a class="os-link" href="https://ihodorchenko.github.io/MaskTextField/documentation/masktextfield/" target="_blank" rel="noopener noreferrer">
+                <span data-i18n="os.docs">Документация</span>
+                <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="os-card reveal" style="--d:.08s">
+            <div class="os-top">
+              <span class="os-lang"><span class="os-dot" style="--dot:#f05138"></span>Swift</span>
+              <span class="os-license">MIT</span>
+            </div>
+            <h4 class="os-title"><a href="https://github.com/ihodorchenko/VPNGuard" target="_blank" rel="noopener noreferrer">VPNGuard</a></h4>
+            <p class="os-desc" data-i18n="os.vpn.desc">Kill switch в меню-баре macOS: когда VPN пропадает, доступ к защищённым хостам блокируется на уровне PF. Нативный Swift, XPC-helper, без sudo.</p>
+            <ul class="tech"><li>SwiftUI</li><li>XPC</li><li>PF</li></ul>
+            <div class="os-links">
+              <a class="os-link" href="https://github.com/ihodorchenko/VPNGuard" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="os-group">
+        <div class="os-group-head reveal">
+          <h3 class="os-group-title" data-i18n="os.group.dsh">DeepSeek Harness · плагины</h3>
+          <span class="os-group-count" aria-hidden="true">5</span>
+          <span class="os-group-line" aria-hidden="true"></span>
+        </div>
+
+        <div class="os-grid">
+          <article class="os-card reveal" style="--d:.02s">
+            <div class="os-top">
+              <span class="os-lang"><span class="os-dot" style="--dot:#f1e05a"></span>JavaScript</span>
+              <span class="os-license">MIT</span>
+            </div>
+            <h4 class="os-title"><a href="https://github.com/ihodorchenko/dsh-futuristic-themes" target="_blank" rel="noopener noreferrer">dsh-futuristic-themes</a></h4>
+            <p class="os-desc" data-i18n="os.themes.desc">Три кинематографичные sci-fi-темы для DeepSeek Harness Desktop: Nostromo Amber, Omni-tool и Renaissance Steel. Полные палитры токенов и эффекты CRT/HUD.</p>
+            <ul class="tech"><li>DSH plugin</li><li>Theme</li><li>CSS</li></ul>
+            <div class="os-links">
+              <a class="os-link" href="https://github.com/ihodorchenko/dsh-futuristic-themes" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="os-card reveal" style="--d:.05s">
+            <div class="os-top">
+              <span class="os-lang"><span class="os-dot" style="--dot:#f1e05a"></span>JavaScript</span>
+              <span class="os-license">MIT</span>
+            </div>
+            <h4 class="os-title"><a href="https://github.com/ihodorchenko/dsh-next-prompt" target="_blank" rel="noopener noreferrer">dsh-next-prompt</a></h4>
+            <p class="os-desc" data-i18n="os.next.desc">Плагин-подсказчик: после ответа показывает следующий запрос призрачным текстом в поле ввода. Tab — и текст ваш. Генерация на стороне хоста.</p>
+            <ul class="tech"><li>DSH plugin</li><li>LLM</li></ul>
+            <div class="os-links">
+              <a class="os-link" href="https://github.com/ihodorchenko/dsh-next-prompt" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="os-card reveal" style="--d:.08s">
+            <div class="os-top">
+              <span class="os-lang"><span class="os-dot" style="--dot:#f1e05a"></span>JavaScript</span>
+              <span class="os-license">MIT</span>
+            </div>
+            <h4 class="os-title"><a href="https://github.com/ihodorchenko/dsh-nightowl" target="_blank" rel="noopener noreferrer">dsh-nightowl</a></h4>
+            <p class="os-desc" data-i18n="os.nightowl.desc">Не даёт Mac уснуть, пока идёт сессия: caffeinate -i, переключатель в шапке сессии и общий тумблер в настройках.</p>
+            <ul class="tech"><li>DSH plugin</li><li>macOS</li></ul>
+            <div class="os-links">
+              <a class="os-link" href="https://github.com/ihodorchenko/dsh-nightowl" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="os-card reveal" style="--d:.11s">
+            <div class="os-top">
+              <span class="os-lang"><span class="os-dot" style="--dot:#f1e05a"></span>JavaScript</span>
+              <span class="os-license">MIT</span>
+            </div>
+            <h4 class="os-title"><a href="https://github.com/ihodorchenko/dsh-dock-attention" target="_blank" rel="noopener noreferrer">dsh-dock-attention</a></h4>
+            <p class="os-desc" data-i18n="os.dock.desc">Подпрыгивает иконкой в Dock, когда DeepSeek Harness ждёт ответа, а окно в фоне. Нативный маячок для macOS.</p>
+            <ul class="tech"><li>DSH plugin</li><li>macOS</li></ul>
+            <div class="os-links">
+              <a class="os-link" href="https://github.com/ihodorchenko/dsh-dock-attention" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="os-card reveal" style="--d:.14s">
+            <div class="os-top">
+              <span class="os-lang"><span class="os-dot" style="--dot:#f1e05a"></span>JavaScript</span>
+              <span class="os-license">MIT</span>
+            </div>
+            <h4 class="os-title"><a href="https://github.com/ihodorchenko/dsh-macos-notifications" target="_blank" rel="noopener noreferrer">dsh-macos-notifications</a></h4>
+            <p class="os-desc" data-i18n="os.notif.desc">Системные уведомления macOS: ход завершён, ошибка, лимит токенов, запрос подтверждения или вопроса. Настраиваются язык и звук.</p>
+            <ul class="tech"><li>DSH plugin</li><li>macOS</li></ul>
+            <div class="os-links">
+              <a class="os-link" href="https://github.com/ihodorchenko/dsh-macos-notifications" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span>GitHub</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="os-more reveal">
+        <a class="btn btn-ghost" href="https://github.com/ihodorchenko" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>
+          <span data-i18n="os.all">Все репозитории на GitHub</span>
+          <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ————————————— SKILLS ————————————— -->
+  <section class="section" id="skills">
+    <div class="wrap">
+      <header class="section-head reveal">
+        <p class="kicker"><span aria-hidden="true">05</span><span data-i18n="skills.kicker">Стек</span></p>
         <h2 data-i18n="skills.title">Чем я<br><em>работаю каждый день</em></h2>
         <p class="section-lead" data-i18n="skills.lead">Не гонюсь за каждой новой библиотекой — выбираю инструмент под задачу и проект. Но современный iOS-стек знаю хорошо.</p>
       </header>
@@ -576,7 +747,7 @@
     <div class="wrap">
       <div class="ai-panel">
         <div class="ai-head">
-          <p class="kicker"><span aria-hidden="true">05</span><span data-i18n="ai.kicker">AI в работе</span></p>
+          <p class="kicker"><span aria-hidden="true">06</span><span data-i18n="ai.kicker">AI в работе</span></p>
           <h2 id="ai-title" data-i18n="ai.title">AI ускоряет рутину,<br><em>решения остаются за мной</em></h2>
           <p class="section-lead" data-i18n="ai.lead">Claude, ChatGPT и Cursor — часть моего ежедневного процесса: разобрать незнакомый код, набросать рефакторинг, сгенерировать тесты, описать фичу. Всё, что попадает в проект, проходит review, тесты и мою проверку.</p>
         </div>
@@ -636,7 +807,7 @@
   <section class="section" id="education">
     <div class="wrap">
       <header class="section-head reveal">
-        <p class="kicker"><span aria-hidden="true">06</span><span data-i18n="edu.kicker">Образование и языки</span></p>
+        <p class="kicker"><span aria-hidden="true">07</span><span data-i18n="edu.kicker">Образование и языки</span></p>
         <h2 data-i18n="edu.title">Математика,<br><em>которая пригодилась</em></h2>
       </header>
 
@@ -684,7 +855,7 @@
     <div class="wrap">
       <div class="contact-card reveal">
         <div class="contact-orbs" aria-hidden="true"><span></span><span></span></div>
-        <p class="kicker kicker-center"><span aria-hidden="true">07</span><span data-i18n="contact.kicker">Контакты</span></p>
+        <p class="kicker kicker-center"><span aria-hidden="true">08</span><span data-i18n="contact.kicker">Контакты</span></p>
         <h2 data-i18n="contact.title">Ищете iOS-разработчика,<br><em>который доведёт до релиза?</em></h2>
         <p class="contact-lead" data-i18n="contact.lead">Идея, продукт или сложный legacy-код — отвечу и предложу, как подойти к решению.</p>
 
@@ -704,6 +875,10 @@
             <svg class="icon" aria-hidden="true"><use href="#i-linkedin"/></svg>
             <span>LinkedIn</span>
           </a>
+          <a class="contact-item" href="https://github.com/ihodorchenko" target="_blank" rel="noopener noreferrer">
+            <svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>
+            <span>GitHub</span>
+          </a>
           <span class="contact-item">
             <svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg>
             <span data-i18n="contact.fun">Отвечу раньше, чем Xcode закончит индексацию</span>
@@ -720,6 +895,7 @@
     <div class="footer-links">
       <a href="mailto:the.guard.of.night@gmail.com">Email</a>
       <a href="https://www.linkedin.com/in/%D0%B8%D0%B3%D0%BE%D1%80%D1%8C-%D1%85%D0%BE%D0%B4%D0%BE%D1%80%D1%87%D0%B5%D0%BD%D0%BA%D0%BE-a7219a217/" target="_blank" rel="noopener noreferrer" data-i18n="footer.linkedin">LinkedIn</a>
+      <a href="https://github.com/ihodorchenko" target="_blank" rel="noopener noreferrer">GitHub</a>
       <a href="#top" data-i18n="footer.top">Наверх ↑</a>
     </div>
   </div>
@@ -727,6 +903,6 @@
 
 <div class="toast" id="toast" role="status" aria-live="polite" data-i18n="toast.copied">Скопировано</div>
 
-<script src="main.js?v=20261025" defer></script>
+<script src="main.js?v=20261102a" defer></script>
 </body>
 </html>
